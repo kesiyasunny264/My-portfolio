@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kesiya Sunny | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <h1 class="logo">My Portfolio</h1>
+
+            <button class="menu-btn" onclick="toggleMenu()">
+                ☰
+            </button>
+
+            <ul id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Kesiya Sunny</h1>
+
+        <p>
+            Welcome to my portfolio website.
+        </p>
+    </section>
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=500"
+             alt="Nature Image">
+
+        <p>
+            I am a B.Tech Computer Science student with a strong interest in web development,
+            programming, and artificial intelligence. I enjoy learning new technologies and
+            building projects that help me improve my technical skills. Currently, I am exploring
+            HTML, CSS, JavaScript, Git, GitHub, and AI development tools. My goal is to become a
+            skilled software developer by continuously learning, practicing, and working on
+            real-world projects.
+        </p>
+
+        <blockquote>
+            "Learning, building, and growing one project at a time."
+        </blockquote>
+
+    </section>
+
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <ul class="skills-list">
+            <li>Python</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+            <li>GitHub</li>
+        </ul>
+
+    </section>
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Kesiya Sunny | Portfolio Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
